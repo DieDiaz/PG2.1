@@ -1,21 +1,26 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import { useNavigate } from 'react-router-dom'; // Importa useNavigate
+import { useNavigate } from 'react-router-dom';
 import './Login.css';
 
 function Login() {
     const [nombre, setNombre] = useState('');
     const [contraseña, setContraseña] = useState('');
     const [error, setError] = useState('');
-    const navigate = useNavigate(); // Usa useNavigate para la redirección
+    const navigate = useNavigate();
 
     const handleSubmit = async (e) => {
         e.preventDefault();
         try {
             const response = await axios.post('http://localhost:5000/login', { nombre, contraseña });
-            const { token } = response.data;
+            const { token, nombre: userName, puesto, rol } = response.data;
+            
             localStorage.setItem('token', token);
-            navigate('/usuario'); // Redirige a la página de Usuario
+            localStorage.setItem('userName', userName);
+            localStorage.setItem('puesto', puesto);
+            localStorage.setItem('rol', rol);
+
+            navigate('/usuario');
         } catch (err) {
             setError(err.response ? err.response.data.message : 'Error en la solicitud');
         }
