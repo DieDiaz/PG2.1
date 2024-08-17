@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import axios from 'axios';
-import './Material.css'; // Importa el CSS
+import './Material.css';
 
 function AddMaterial() {
     const [titulo, setTitulo] = useState('');
@@ -10,7 +10,7 @@ function AddMaterial() {
 
     const handleSubmit = async (e) => {
         e.preventDefault();
-        const usuario = 'usuarioEjemplo'; // Cambia esto por el nombre del usuario actual
+        const usuario = 'usuarioEjemplo';
 
         try {
             await axios.post('http://localhost:5000/material', {

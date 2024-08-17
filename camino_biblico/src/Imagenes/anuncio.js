@@ -8,7 +8,7 @@ function Anuncio() {
     const [importante, setImportante] = useState(false);
     const [sociedad, setSociedad] = useState('');
     const [error, setError] = useState('');
-    const usuario = localStorage.getItem('userName'); // Assume the user is logged in and userName is stored
+    const usuario = localStorage.getItem('userName');
 
     const handleSubmit = async (e) => {
         e.preventDefault();
@@ -21,7 +21,6 @@ function Anuncio() {
                 usuario
             });
 
-            // Optionally, you can navigate or clear the form after success
             alert('Announcement created successfully!');
         } catch (err) {
             setError(err.response ? err.response.data.message : 'Error in request');

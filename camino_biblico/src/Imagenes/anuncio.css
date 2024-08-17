@@ -1,4 +1,4 @@
-/* General form styling */
+
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -55,14 +55,14 @@ button[type="submit"]:hover {
     background-color: #218838;
 }
 
-/* Error message styling */
+
 .error {
     color: red;
     font-size: 14px;
     margin-top: 10px;
 }
 
-/* Announcements List Styling */
+
 .announcements-list {
     max-width: 800px;
     margin: 20px auto;

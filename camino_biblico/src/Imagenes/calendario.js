@@ -16,7 +16,6 @@ function DisplayCalendar() {
                 const eventsData = response.data;
                 setEvents(eventsData);
 
-                // Extract unique days with events
                 const daysWithEvents = eventsData.map(event => new Date(event.fecha).toDateString());
                 setHighlightedDays([...new Set(daysWithEvents)]);
             } catch (error) {

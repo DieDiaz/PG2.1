@@ -1,22 +1,22 @@
-/* General calendar styling */
-.react-calendar {
-    max-width: 800px;
-    margin: 0 auto;
-}
-/* General calendar styling */
+
 .react-calendar {
     max-width: 800px;
     margin: 0 auto;
 }
 
-/* Highlighted days with events */
+.react-calendar {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+
 .react-calendar .highlighted {
-    background: #ffeb3b; /* Amarillo claro para resaltar los días */
+    background: #ffeb3b;
     border-radius: 50%;
     color: black;
 }
 
-/* Event information styling */
+
 .event-info {
     max-width: 600px;
     margin: 0 auto;
@@ -34,13 +34,13 @@
 .event-item {
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #e3f2fd; /* Fondo azul claro */
+    background-color: #e3f2fd; 
     border-radius: 4px;
 }
 
 .event-item strong {
     display: block;
-    color: #0288d1; /* Azul para el título */
+    color: #0288d1;
 }
 
 .event-item p {
@@ -49,7 +49,7 @@
 }
 
 
-/* Form styling for adding events */
+
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -104,7 +104,7 @@ button[type="submit"]:hover {
     background-color: #218838;
 }
 
-/* Error message styling */
+
 .error {
     color: red;
     font-size: 14px;

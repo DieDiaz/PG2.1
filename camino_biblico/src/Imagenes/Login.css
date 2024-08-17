@@ -1,51 +1,51 @@
 .Login {
     display: flex;
-    justify-content: center; /* Centra horizontalmente el formulario */
-    align-items: center; /* Centra verticalmente el formulario */
-    height: 100vh; /* Ocupa toda la altura de la ventana */
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro con 80% de opacidad */
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8); 
   }
   
   .campos {
-    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro con 80% de opacidad */
-    color: white; /* Texto blanco */
-    padding: 20px; /* Espaciado interno */
-    border-radius: 8px; /* Bordes redondeados */
-    width: 300px; /* Ancho del formulario */
-    text-align: center; /* Centra el texto dentro del formulario */
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white; 
+    padding: 20px; 
+    border-radius: 8px; 
+    width: 300px;
+    text-align: center;
   }
   
   label {
-    display: block; /* Hace que las etiquetas ocupen toda la línea */
-    margin-bottom: 10px; /* Espacio debajo de cada etiqueta */
+    display: block; 
+    margin-bottom: 10px; 
   }
   
   input[type="text"] {
-    width: calc(100% - 20px); /* Ajusta el ancho para el espaciado interno */
-    margin-bottom: 10px; /* Espacio debajo de los campos de texto */
-    padding: 8px; /* Espaciado interno en los campos de texto */
-    border: none; /* Elimina el borde predeterminado */
-    border-radius: 4px; /* Bordes redondeados en los campos de texto */
+    width: calc(100% - 20px); 
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none; 
+    border-radius: 4px;
   }
 
   input[type="Password"] {
-    width: calc(100% - 20px); /* Ajusta el ancho para el espaciado interno */
-    margin-bottom: 10px; /* Espacio debajo de los campos de texto */
-    padding: 8px; /* Espaciado interno en los campos de texto */
-    border: none; /* Elimina el borde predeterminado */
-    border-radius: 4px; /* Bordes redondeados en los campos de texto */
+    width: calc(100% - 20px); 
+    margin-bottom: 10px;
+    padding: 8px;
+    border: none;
+    border-radius: 4px; 
   }
   
   
   input[type="submit"] {
-    background-color: #333; /* Fondo del botón */
-    color: white; /* Texto blanco en el botón */
-    border: none; /* Elimina el borde del botón */
-    padding: 10px 20px; /* Espaciado interno en el botón */
-    border-radius: 4px; /* Bordes redondeados en el botón */
-    cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+    background-color: #333; 
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px; 
+    cursor: pointer;
   }
   
   input[type="submit"]:hover {
-    background-color: #555; /* Color del botón al pasar el mouse sobre él */
+    background-color: #555;
   }

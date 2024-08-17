@@ -1,4 +1,4 @@
-/* Estilos para el formulario de añadir material */
+
 form {
     max-width: 600px;
     margin: 0 auto;
@@ -52,7 +52,7 @@ button[type="submit"]:hover {
     background-color: #218838;
 }
 
-/* Estilos para el material compartido */
+
 .material-list {
     max-width: 800px;
     margin: 0 auto;
@@ -61,13 +61,13 @@ button[type="submit"]:hover {
 .material-item {
     padding: 10px;
     margin-bottom: 10px;
-    background-color: #e3f2fd; /* Fondo azul claro */
+    background-color: #e3f2fd;
     border-radius: 4px;
 }
 
 .material-item h3 {
     margin-top: 0;
-    color: #0288d1; /* Azul para el título */
+    color: #0288d1;
 }
 
 .material-item p {
@@ -80,15 +80,15 @@ button[type="submit"]:hover {
     color: #999;
 }
 .material-item a {
-    color: #007bff; /* Color azul para enlaces */
-    text-decoration: underline; /* Subrayado para enlaces */
+    color: #007bff;
+    text-decoration: underline;
 }
 
 .material-item a:hover {
-    color: #0056b3; /* Color al pasar el ratón sobre el enlace */
+    color: #0056b3;
 }
 
-/* Mensajes de error */
+
 .error {
     color: red;
     font-size: 14px;

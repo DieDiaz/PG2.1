@@ -1,7 +1,7 @@
-// Layout.js
+
 import React from 'react';
 import { Outlet, Link } from 'react-router-dom';
-import './Layout.css'; // Asegúrate de tener estilos para tu layout
+import './Layout.css';
 
 const Layout = () => {
   return (

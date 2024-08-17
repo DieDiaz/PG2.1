@@ -3,14 +3,14 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  height: 100vh; /* Ajusta la altura según el contenido */
+  height: 100vh; 
   margin: 0;
 }
 
 
 
 .navbar {
-  background-color: rgba(51, 51, 51, 0.8); /* Fondo semi-transparente para la barra de navegación */
+  background-color: rgba(51, 51, 51, 0.8);
   padding: 10px;
 }
 
@@ -23,7 +23,7 @@
 
 .nav-item {
   display: flex;
-  align-items: center; /* Alinea verticalmente los elementos */
+  align-items: center; 
   margin-right: 20px;
 }
 
@@ -43,5 +43,5 @@
 
 main {
   padding: 20px;
-  min-height: 100vh; /* Asegura suficiente espacio para el contenido */
+  min-height: 100vh;
 }
